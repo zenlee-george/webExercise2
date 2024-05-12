@@ -1,0 +1,104 @@
+<!-- After you have completed recreating the above website, please complete the questions that follow below
+CSS  Technical and Application based Exercise
+
+Please make use of the notes on LMS, w3schools or any alternative resource.
+
+1.  Inside the article element, create elements with your own information and use all the different types of selectors. Make sure to use comments to explain them in your code.
+
+2.  Make sure to use 4 Pseudo elements and 4 Pseudo classes any where on the HTML page. (TOTal: 8)
+    Explain using comments what each Pseudo element and Pseudo class does that you decided to use.
+
+3.  Explain what "box-sizing: border-box" does.
+The box-sizing property allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element, padding and border are included in the width and height: Both divs are the same size now! Hooray!
+
+4.  List 2 other ways of using colours(eg, color name[orange], gradients)
+Hexadecimal and RGB/RGBA color
+
+5.  Make sure that the nav bar will always be visible when scrolling down. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Wednesday</title>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Contact </a></li>
+        </ul>
+    </nav>
+    <br>
+        <table>
+            <h1>Cars</h1>
+            <thead>
+                <th>Name</th>
+                <th>Model</th>
+                <th>Engine Size</th>
+                <th>hp</th>
+                <th>Transmission</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chevrolet</td>
+                    <td>Corvette</td>
+                    <td>5.5L</td>
+                    <td>670</td>
+                    <td>Automatic</td>
+                </tr>
+                <tr>
+                    <td>Aston Martin</td>
+                    <td>Valhalla</td>
+                    <td>4.0L</td>
+                    <td>998</td>
+                    <td>Dual Clutch</td>
+                </tr>
+            </tbody>
+        </table>
+        <br></br>
+        <div class="container">
+            <div class="card">
+                <img src="https://mohammad-mohamed.github.io/hostedImages/images/image1.jpg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://matthew-dean-brown.github.io/hosted_images/images/lightning.jpeg" alt="">
+            </div>
+        </div>
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="content">
+                <article>
+                    <!-- Element Name Selector -->
+                    <h1>My Personal Information</h1>
+                    
+                    <!-- Class Selector -->
+                    <p class="info">Name: Mohammad Mohamed</p>
+                    
+                    <!-- ID Selector -->
+                    <p id="personal-info">Occupation: Web Developer</p>
+                    
+                    <!-- Attribute Selector -->
+                    <p data-detail="age">Age: 20</p>
+                    
+                    <!-- Nested Element Selector -->
+                    <div>
+                        <p>Location: South Africa</p>
+                    </div>
+                </article>
+            </div>
+    </main>
+</body>
+</html>
